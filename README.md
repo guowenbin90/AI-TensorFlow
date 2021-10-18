@@ -7,3 +7,9 @@
 
 **Deep Learning:** A subfield of machine learning that uses multi-layered neural networks. Often, “machine learning” and “deep learning” are used interchangeably.
 
+
+## [Epoch vs Batch Size vs Iterations](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)
+
+**Epochs:** One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.  
+**Batch Size:** Total number of training examples present in a single batch.  
+**Iterations:** Iterations is the number of batches needed to complete one epoch.  

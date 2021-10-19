@@ -8,7 +8,8 @@
 **Deep Learning:** A subfield of machine learning that uses multi-layered neural networks. Often, “machine learning” and “deep learning” are used interchangeably.
 
 
-## [Epoch vs Batch Size vs Iterations](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)
+## Lesson 2
+[Epoch vs Batch Size vs Iterations](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)
 
 **Epochs:** One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.  
 **Batch Size:** Total number of training examples present in a single batch.  
@@ -31,3 +32,9 @@
 **Epoch:** A full pass over the entire training dataset  
 **Forward pass:** The computation of output values from input  
 **Backward pass (backpropagation):** The calculation of internal variable adjustments according to the optimizer algorithm, starting from the output layer and working back through each layer to the input.  
+
+## Lesson 3:
+**Flattening:** The process of converting a 2d image into 1d vector  
+**ReLU:** An activation function that allows a model to solve nonlinear problems  
+**Softmax:** A function that provides probabilities for each possible output class  
+**Classification:** A machine learning model used for distinguishing among two or more output categories  

@@ -38,3 +38,10 @@
 **ReLU:** An activation function that allows a model to solve nonlinear problems  
 **Softmax:** A function that provides probabilities for each possible output class  
 **Classification:** A machine learning model used for distinguishing among two or more output categories  
+
+|    |   Classification      |  Regression |
+|:----------|:-------------|:------|
+| Output |  List of numbers that represent probabilities for each class | Single number |
+| Example | Fashion MNIST | Celsius to Fahrenheit |
+| Loss | Sparse categorical crossentropy | Mean squared error |
+| Last Layer Activation Function | Softmax | None |

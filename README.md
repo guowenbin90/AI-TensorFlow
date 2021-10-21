@@ -8,7 +8,7 @@
 **Deep Learning:** A subfield of machine learning that uses multi-layered neural networks. Often, “machine learning” and “deep learning” are used interchangeably.
 
 
-## Lesson 2
+## Lesson 2: Introduction to Machine Learning
 [Epoch vs Batch Size vs Iterations](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)
 
 **Epochs:** One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.  
@@ -33,7 +33,7 @@
 **Forward pass:** The computation of output values from input  
 **Backward pass (backpropagation):** The calculation of internal variable adjustments according to the optimizer algorithm, starting from the output layer and working back through each layer to the input.  
 
-## Lesson 3:
+## Lesson 3: First Model - Fashion MNIST
 **Flattening:** The process of converting a 2d image into 1d vector  
 **ReLU:** An activation function that allows a model to solve nonlinear problems  
 **Softmax:** A function that provides probabilities for each possible output class  
@@ -45,3 +45,14 @@
 | Example | Fashion MNIST | Celsius to Fahrenheit |
 | Loss | Sparse categorical crossentropy | Mean squared error |
 | Last Layer Activation Function | Softmax | None |
+
+## Lesson 4: Introduction to CNNs
+A convolution is the process of applying a filter (“kernel”) to an image. Max pooling is the process of reducing the size of the image through downsampling.  
+**CNNs:** Convolutional neural network. That is, a network which has at least one convolutional layer. A typical CNN also includes other types of layers, such as pooling layers and dense layers.  
+**Convolution:** The process of applying a kernel (filter) to an image  
+**Kernel / filter:** A matrix which is smaller than the input, used to transform the input into chunks  
+**Padding:** Adding pixels of some value, usually 0, around the input image  
+**Pooling:** The process of reducing the size of an image through downsampling.There are several types of pooling layers. For example, average pooling converts many values into a single value by taking the average. However, maxpooling is the most common.  
+**Maxpooling:** A pooling process in which many values are converted into a single value by taking the maximum value from among them.  
+**Stride:** the number of pixels to slide the kernel (filter) across the image.  
+**Downsampling:** The act of reducing the size of an image  

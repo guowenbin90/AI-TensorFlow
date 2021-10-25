@@ -56,3 +56,4 @@ A convolution is the process of applying a filter (“kernel”) to an image. Ma
 **Maxpooling:** A pooling process in which many values are converted into a single value by taking the maximum value from among them.  
 **Stride:** the number of pixels to slide the kernel (filter) across the image.  
 **Downsampling:** The act of reducing the size of an image  
+More details about [CNN](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) 

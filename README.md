@@ -57,3 +57,19 @@ A convolution is the process of applying a filter (“kernel”) to an image. Ma
 **Stride:** the number of pixels to slide the kernel (filter) across the image.  
 **Downsampling:** The act of reducing the size of an image  
 More details about [CNN](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) 
+
+## Lesson 5: Going Further with CNNs
+activation='softmax' and 'sigmoid' work well in a binary classification problem. 
+
+activation='softmax'
+```
+model.compile(optimizer='adam', 
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+```
+activation='sigmoid' 
+```
+model.compile(optimizer='adam', 
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+```

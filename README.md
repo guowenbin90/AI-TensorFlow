@@ -73,3 +73,7 @@ model.compile(optimizer='adam',
               loss='binary_crossentropy',
               metrics=['accuracy'])
 ```
+### Three different techniques to prevent overfitting:
+**Early Stopping:** In this method, we track the loss on the validation set during the training phase and use it to determine when to stop training such that the model is accurate but not overfitting.  
+**Image Augmentation:** Artificially boosting the number of images in our training set by applying random image transformations to the existing images in the training set.  
+**Dropout:** Removing a random selection of a fixed number of neurons in a neural network during training.  

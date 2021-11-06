@@ -85,3 +85,5 @@ Using Transfer Learning to create very powerful Convolutional Neural Networks wi
 **MobileNet:** A state-of-the-art convolutional neural network developed by Google that uses a very efficient neural network architecture that minimizes the amount of memory and computational resources needed, while maintaining a high level of accuracy. MobileNet is ideal for mobile devices that have limited memory and computational resources.  
 
 ## Lesson 7: Saving and Loading Models
+
+## Lesson 8: Time Series Forecasting

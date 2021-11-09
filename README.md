@@ -88,4 +88,4 @@ Using Transfer Learning to create very powerful Convolutional Neural Networks wi
 
 ## Lesson 8: Time Series Forecasting
 
-## Lesson 9:
+## Lesson 9: NLP: Tokenization and Embeddings

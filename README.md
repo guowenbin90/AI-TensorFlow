@@ -77,6 +77,7 @@ model.compile(optimizer='adam',
 **Early Stopping:** In this method, we track the loss on the validation set during the training phase and use it to determine when to stop training such that the model is accurate but not overfitting.  
 **Image Augmentation:** Artificially boosting the number of images in our training set by applying random image transformations to the existing images in the training set.  
 **Dropout:** Removing a random selection of a fixed number of neurons in a neural network during training.  
+[Memorizing is not learning! — 6 tricks to prevent overfitting in machine learning](https://hackernoon.com/memorizing-is-not-learning-6-tricks-to-prevent-overfitting-in-machine-learning-820b091dc42)
 
 ## Lesson 6: Transfer Learning
 Using Transfer Learning to create very powerful Convolutional Neural Networks with very little effort  

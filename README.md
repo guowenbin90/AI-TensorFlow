@@ -93,4 +93,4 @@ Using Transfer Learning to create very powerful Convolutional Neural Networks wi
 
 ## Lesson 10: NLP: Recurrent Neural Networks
 
-## Lesson 11:
+## Lesson 11: Introduction to TensorFlow Lite

@@ -88,7 +88,7 @@ Using Transfer Learning to create very powerful Convolutional Neural Networks wi
 ## Lesson 7: Saving and Loading Models
 
 ## Lesson 8: Time Series Forecasting
-
+Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow
 ## Lesson 9: NLP: Tokenization and Embeddings
 
 ## Lesson 10: NLP: Recurrent Neural Networks

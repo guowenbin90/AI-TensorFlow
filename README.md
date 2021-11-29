@@ -96,4 +96,5 @@ Natural Language Processing, or NLP for short, focuses on analyzing text and spe
 ## Lesson 10: NLP: Recurrent Neural Networks
 
 ## Lesson 11: Introduction to TensorFlow Lite
-Deploy deep learning models on mobile and embedded devices with TensorFlow Lite. 
+Deploy deep learning models on mobile and embedded devices with TensorFlow Lite.  
+TF Lite on AndroidTF, iOS with Swift and IoT

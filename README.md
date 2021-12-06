@@ -96,6 +96,8 @@ LSTM
 CNN
 ## Lesson 9: NLP: Tokenization and Embeddings
 Natural Language Processing, or NLP for short, focuses on analyzing text and speech data. This can range from simple recognition (what words are in the given text/speech), to sentiment analysis (was a review positive or negative), and all the way to areas like text generation (creating novel song lyrics from scratch).
+
+Embeddings are clusters of vectors in multi-dimensional space, where each vector represents a given word in those dimensions. 
 ## Lesson 10: NLP: Recurrent Neural Networks
 
 ## Lesson 11: Introduction to TensorFlow Lite

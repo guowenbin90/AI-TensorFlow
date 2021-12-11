@@ -99,6 +99,12 @@ Natural Language Processing, or NLP for short, focuses on analyzing text and spe
 
 Embeddings are clusters of vectors in multi-dimensional space, where each vector represents a given word in those dimensions. 
 ## Lesson 10: NLP: Recurrent Neural Networks
+Simple RNNs are not always enough when working with text data. Longer sequences, such as a paragraph, often are difficult to handle, as the simple RNN structure loses information about previous inputs fairly quickly.
+
+Long Short-Term Memory models, or LSTMs, help resolve this by keeping a “cell state” across time. These include a “forget gate”, where the cell can choose whether to keep or forget certain words to carry forward in the sequence.
+
+Another interesting aspect of LSTMs is that they can be bidirectional, meaning that information can be passed both forward (later in the text sequence) and backward (earlier in the text sequence).
+
 
 ## Lesson 11: Introduction to TensorFlow Lite
 Deploy deep learning models on mobile and embedded devices with TensorFlow Lite.  

@@ -104,8 +104,11 @@ Simple RNNs are not always enough when working with text data. Longer sequences,
 Long Short-Term Memory models, or LSTMs, help resolve this by keeping a “cell state” across time. These include a “forget gate”, where the cell can choose whether to keep or forget certain words to carry forward in the sequence.
 
 Another interesting aspect of LSTMs is that they can be bidirectional, meaning that information can be passed both forward (later in the text sequence) and backward (earlier in the text sequence).
-
-
+```
+#Two bidirectional LSTM layers with 64 nodes each
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64), return_sequences=True)
+tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64))
+```
 ## Lesson 11: Introduction to TensorFlow Lite
 Deploy deep learning models on mobile and embedded devices with TensorFlow Lite.  
 TF Lite on AndroidTF, iOS with Swift and IoT

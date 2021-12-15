@@ -109,6 +109,7 @@ Another interesting aspect of LSTMs is that they can be bidirectional, meaning t
 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64), return_sequences=True)
 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64))
 ```
+LSTMs vs. Convolutions vs. GRUs  
 ## Lesson 11: Introduction to TensorFlow Lite
 Deploy deep learning models on mobile and embedded devices with TensorFlow Lite.  
 TF Lite on AndroidTF, iOS with Swift and IoT

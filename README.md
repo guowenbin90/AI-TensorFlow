@@ -110,6 +110,10 @@ tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64), return_sequences=True)
 tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(64))
 ```
 LSTMs vs. Convolutions vs. GRUs  
+- **LSTMs:** Utilizes “forget” and “learn” gates that feed to “remember” and “use” gates, where remembering is for further storage for the next input, and using is for generating the current output.
+- **Convolutions:** Utilizes “filters” that can slide over multiple words at a time and extract features from those sequences of words. Can be used for purposes other than a recurrent neural network.
+- **GRUs:** Utilizes “update” and “reset” gates, where the “update” gate determines updates to the existing stored knowledge, and the reset gate determines how much to forget in the existing stored knowledge.
+
 ## Lesson 11: Introduction to TensorFlow Lite
 Deploy deep learning models on mobile and embedded devices with TensorFlow Lite.  
 TF Lite on AndroidTF, iOS with Swift and IoT

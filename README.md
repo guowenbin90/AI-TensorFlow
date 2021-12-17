@@ -114,6 +114,8 @@ LSTMs vs. Convolutions vs. GRUs
 - **Convolutions:** Utilizes “filters” that can slide over multiple words at a time and extract features from those sequences of words. Can be used for purposes other than a recurrent neural network.
 - **GRUs:** Utilizes “update” and “reset” gates, where the “update” gate determines updates to the existing stored knowledge, and the reset gate determines how much to forget in the existing stored knowledge.
 
+Text generation can be done through simply predicting the next most likely word, given an input sequence. This can be done over and over by feeding the original input sequence, plus the newly predicted end word, as the next input sequence to the model. As such, the full output generated from a very short original input can effectively go on however long you want it to be.
+
 ## Lesson 11: Introduction to TensorFlow Lite
 Deploy deep learning models on mobile and embedded devices with TensorFlow Lite.  
 TF Lite on AndroidTF, iOS with Swift and IoT

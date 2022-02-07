@@ -9,6 +9,10 @@
 
 
 ## Lesson 2: Introduction to Machine Learning
+The training process (happening in ```model.fit(...)```) is really about tuning the internal variables of the networks to the best possible values, 
+so that they can map the input to the output. A optimization process called Gradient Descent.   
+The value of the loss is calculated using a loss function, which we specified with the loss parameter when calling ```model.compile()```.
+
 [Epoch vs Batch Size vs Iterations](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)
 
 **Epochs:** One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.  

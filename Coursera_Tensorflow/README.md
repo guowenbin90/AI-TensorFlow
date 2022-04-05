@@ -8,3 +8,7 @@
 - Make predictions on how the layer size affects network predictions and training speed
 - Implement pixel value normalization to speed up network training
 - Build a multilayer neural network for classifying the Fashion MNIST image dataset
+## Week 3
+- Use callback functions to interrupt training after meeting a threshold accuracy
+- Test the effect of adding convolution and MaxPooling to the neural network for classifying Fashion MNIST images on classification accuracy
+- Explain and visualize how convolution and MaxPooling aid in image classification tasks

@@ -22,3 +22,8 @@
 - Develop helper functions to move files around the filesystem so that they can be fed to the ImageDataGenerator
 - Learn how to plot training and validation accuracies to evaluate model performance
 - Build a classifier using convolutional neural networks for performing cats vs dogs classification
+## Week 2
+- Recognize the impact of adding image augmentation to the training process, particularly in time
+- Demonstrate overfitting or lack of by plotting training and validation accuracies
+- Familiarize with the ImageDataGenerator parameters used for carrying out image augmentation
+- Learn how to mitigate overfitting by using data augmentation techniques

@@ -27,3 +27,9 @@
 - Demonstrate overfitting or lack of by plotting training and validation accuracies
 - Familiarize with the ImageDataGenerator parameters used for carrying out image augmentation
 - Learn how to mitigate overfitting by using data augmentation techniques
+## Week 3
+- Master the keras layer type known as dropout to avoid overfitting
+- Achieve transfer learning in code using the keras API
+- Code a model that implements Keras’ functional API instead of the commonly used Sequential model
+- Learn how to freeze layers from an existing model to successfully implement transfer learning
+- Explore the concept of transfer learning to use the convolutions learned by a different model from a larger dataset

@@ -39,3 +39,4 @@
 - Understand the difference between using actual image files vs images encoded in other formats and how this changes the methods available when using ImageDataGenerator
 - Code a helper function to parse a raw CSV file which contains the information of the pixel values for the images used
 # 3. Natural Language Processing in TensorFlow
+# 4. Sequences, Time Series and Prediction

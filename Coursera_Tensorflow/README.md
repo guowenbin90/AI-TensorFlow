@@ -40,3 +40,22 @@
 - Code a helper function to parse a raw CSV file which contains the information of the pixel values for the images used
 # 3. Natural Language Processing in TensorFlow
 # 4. Sequences, Time Series and Prediction
+## Week 1
+C4_W1_Lab_1_time_series.ipynb
+- Trend: The trend describes the general tendency of the values to go up or down as time progresses. 
+Given a certain time period, you can see if the graph is following an upward/positive trend, downward/negative trend, or just flat. 
+For instance, the housing prices in a good location can see a general increase in valuation as time passes.
+- Seasonality: This refers to a recurring pattern at regular time intervals. 
+For instance, the hourly temperature might oscillate similarly for 10 consecutive days and 
+you can use that to predict the behavior on the next day.
+- Noise: In practice, few real-life time series have such a smooth signal. They usually have some noise riding over that signal. 
+- Autocorrelation: Time series can also be autocorrelated. This means that measurements at a given time step is a function of previous time steps.
+- Non-stationary Time Series: It is also possible for the time series to break an expected pattern. 
+As mentioned in the lectures, big events can alter the trend or seasonal behavior of the data. 
+
+C4_W1_Lab_2_forecasting.ipynb
+- Moving Average: One technique you can use is to do a moving average. 
+This sums up a series of time steps and the average will be the prediction for the next time step. 
+- Differencing: Since the seasonality period is 365 days, you will subtract the value at time t – 365 from the value at time t. 
+- Smoothing: You can use the same ```moving_average_forecast()``` function to smooth out past values before adding them back to the time differenced moving average.
+
